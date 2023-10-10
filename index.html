@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page - API</title>
+</head>
+<body>
+    <main>
+        <div class="cont-logo">
+            <img  id="logo" src="img/GitHub (1).svg" alt="logo GitHub">
+            <h1>RAKE UP</h1>
+        </div>
+
+        <section id="sect-1">
+            <input class="input" type="text" placeholder="Insira o nome de usuário do GitHub">
+            <button class="button-search" onclick="searchUser()"><img class="lupa" src="img/Search.svg" alt="lupa"></button>
+        </section>
+
+        <section id="container">
+            <div class="sub-container">
+                <div class="img">
+                    <img id="avatar" src="" alt="perfil">
+                </div>
+                <div class="description">
+                    <h3 id="user"></h3>
+                    <p id="descricao"> </p>
+                </div>
+            </div>
+            <div class="rep-container">
+                <h3 class="txt">Repositórios Disponíveis</h3>
+                <ul id="repos">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+<script src="api.js"></script>
+</body>
+</html>
