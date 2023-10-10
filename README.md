@@ -11,5 +11,4 @@
 
 <div align = "center">
    <img src="https://ludslvaz.github.io/API-challend./"/>
-  <img src="C:\Users\ludmi\Downloads\Captura de Tela (62).png"/>
 </div>
